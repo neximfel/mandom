@@ -1,0 +1,453 @@
+@font-face {
+  font-family: 'Circe';
+  src: url('fonts/circe.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circe_bold';
+  src: url('fonts/circe_bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Circe", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+nav div{
+    display: flex;
+
+}
+.nadpis h1{
+    color: white;
+    font-size: 3.375rem;
+    font-weight: 500;
+    width: 900px;
+}
+.nadpis{
+    width: 67%;
+    height: 90%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.greed{
+    height: 100vh;
+    background-image: url(./images/first/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.left_panel{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    position: relative;
+}
+.inside_left_panel{
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo_menu{
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icons_menu{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons_menu img{
+    width: 40px;
+    height: 40px;
+}
+.flux{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.flux a{
+    color: white;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.flux a:hover{
+    font-size: 1.325rem;
+}
+.bron{
+    width: 500px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.bron ul{
+    align-items: center;
+    width: 67%;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bron button{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    width: 145px;
+    height: 42px;
+    background-color: #b59571;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.bron button:hover{
+    font-size: 1.15rem;
+    width: 155px;
+    height: 48px;
+}
+
+
+.about_nadpis{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 224px;
+}
+.about_nadpis h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.about_nadpis img{
+    width: 60px;
+    height: 3px;
+}
+.o_restorane{
+    width:65%;
+    height: 681px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.about_main{
+    height: 406px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.about_text{
+    display: flex;
+}
+.food_exxe{
+    width: 50%;
+    justify-items: center;
+}
+.food_exxe h1{
+    font-size: 4rem;
+    font-weight: 580;
+    width: 50px;
+}
+.food_exxe_text{
+    width: 50%;
+}
+.food_exxe_text p{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.menu_nadpis{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 336px;
+}
+.menu_nadpis h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.menu{
+    width:65%;
+    height: 681px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.menu_main{
+    height: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.menu_text{
+    display: flex;
+}
+.menut{
+    width: 50%;
+    justify-items: center;
+}
+.menut h1{
+    font-size: 4rem;
+    font-weight: 580;
+    width: 50px;
+}
+.menut_text{
+    width: 50%;
+}
+.menut_text p{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.two_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.two_menu h2{
+    font-size: 1.25rem;
+}
+.left_menu, .right_menu{
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.left_menu:hover{
+    height: 305px;
+}
+.right_menu:hover{
+    height: 305px;
+}
+
+
+.dostavka_nadpis{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 224px;
+}
+.dostavka_nadpis h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.dostavka_nadpis img{
+    width: 60px;
+    height: 3px;
+}
+.dostavka{
+    width:65%;
+    height: 681px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.dostavka_main{
+    height: 406px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dostavka_text{
+    display: flex;
+}
+.delivery{
+    width: 50%;
+    justify-items: center;
+}
+.delivery h1{
+    font-size: 4rem;
+    font-weight: 580;
+    width: 50px;
+}
+.delivery_text{
+    width: 50%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.delivery_text p{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.dostavka_buttons{
+    width: 437px;
+    display: flex;
+    justify-content: space-between;
+}
+.button_dost1{
+    width: 171px;
+    height: 58px;
+    font-size: 1.25rem;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #b59571;
+    color: white;
+}
+.logo_menu button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.button_dost1:hover{
+    width: 160px;
+    height: 52px;
+    font-size: 1.125rem;
+}
+.button_dost2{
+    width: 236px;
+    height: 58px;
+    font-size: 1.25rem;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: white;
+    border: 1px solid #D6D6D6;
+}
+.button_dost2:hover{
+    width: 224px;
+    height: 52px;
+    font-size: 1.125rem;
+}
+
+
+.contacts_nadpis{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 224px;
+}
+.contacts_nadpis h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.contacts_nadpis img{
+    width: 60px;
+    height: 3px;
+}
+.contacts{
+    width: 70%;
+    height: 681px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.contacts_main{
+    height: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts_text{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_left{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.contact_left h2{
+    color: #b59571;
+    font-size: 2rem;
+}
+.contact_left span{
+    font-size: 4rem;
+}
+.peter{
+    width: 157px;
+    height: 180px;
+}
+.bron_stol{
+  background-color: #4a4a4a;
+  color: white;
+  width: 420px;
+  padding: 32px;
+}
+.contact_map{
+    width: 80%;
+    background-image: url(./images/map/map.png);
+    z-index: 1;
+}
+.my_map{
+    width: 20%;
+}
+.button_bron1{
+    width: 156px;
+    height: 42px;
+    background-color: #b59571;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+}
+.button_bron1:hover{
+    width: 180px;
+    height: 50px;
+    font-size: 1.125rem;
+}
+.button_bron2{
+    width: 156px;
+    height: 42px;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+    border: 1px solid white;
+}
+.button_bron2:hover{
+    width: 180px;
+    height: 50px;
+    font-size: 1.125rem;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #333333;
+    align-content: center;
+}
+.footer_ins{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: white;
+}
+footer p{
+    color: white;
+}

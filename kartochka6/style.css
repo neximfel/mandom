@@ -1,0 +1,332 @@
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/circe.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circe_bold';
+  src: url('../fonts/circe_bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Circe", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.spisok{
+    display: flex;
+}
+.left_panel{
+    height: 100vh;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    position: relative;
+}
+.inside_left_panel{
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_spisok{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.logo_menu{
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icons_menu{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons_menu img{
+    width: 40px;
+    height: 40px;
+}
+.flux_ins{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+
+}
+.flux{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.flux a{
+    color: #333333;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.flux a:hover{
+    font-size: 1.325rem;
+}
+.flux button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.podspisok{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.podspisok a{
+    color: #333333;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    height: 30px;
+}
+.podspisok a:hover{
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: #b59571 2px solid;
+    height: 45px;
+}
+
+
+.bludo{
+    justify-content: space-between;
+    width: 55%;
+    display: flex;
+    margin: 0 auto;
+}
+.top_img img{
+    width: 416px;
+    height: 317px;
+}
+.bot_img{
+    display: flex;
+    justify-content: space-between;
+}
+.bot_img img{
+    width: 122px;
+    height: 93px;
+}
+.right_blud h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.right_blud{
+    width: 376px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.v_korzinu3 button{
+    width: 150px;
+    height: 58px;
+    background-color: #b59571;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+    font-size: 1.25rem;
+}
+.v_korzinu3 button:hover{
+    width: 170px;
+    height: 66px;
+    font-size: 1.375rem;
+}
+.v_korzinu{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dopoln{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.doppio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.doppio input{
+    width: 24px;
+    height: 24px;
+    background: none;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+    accent-color: #b59571;
+}
+.doppio_ins p{
+    font-size: 1rem;
+    color: #999999;
+}
+.doppio_ins h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.v_korzinu3 input{
+    width: 88px;
+    height: 58px;
+    background: none;
+    border-style: none;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #333333;
+    font-size: 1.25rem;
+    padding: 4% 4%;
+}
+.v_korzinu3 input:hover{
+    width: 100px;
+    height: 66px;
+    font-size: 1.375rem;
+}
+
+.contacts_nadpis{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 224px;
+}
+.contacts_nadpis h2{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.contacts_nadpis img{
+    width: 60px;
+    height: 3px;
+}
+.contacts{
+    width: 70%;
+    height: 681px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.contacts_main{
+    height: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts_text{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_left{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.contact_left h2{
+    color: #b59571;
+    font-size: 2rem;
+}
+.contact_left span{
+    font-size: 4rem;
+}
+.peter{
+    width: 157px;
+    height: 180px;
+}
+.bron_stol{
+  background-color: #4a4a4a;
+  color: white;
+  width: 420px;
+  padding: 32px;
+}
+.contact_map{
+    width: 80%;
+    background-image: url(../images/map/map.png);
+    z-index: 1;
+}
+.my_map{
+    width: 20%;
+}
+.button_bron1{
+    width: 156px;
+    height: 42px;
+    background-color: #b59571;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+}
+.button_bron1:hover{
+    width: 180px;
+    height: 50px;
+    font-size: 1.125rem;
+}
+.button_bron2{
+    width: 156px;
+    height: 42px;
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+    border: 1px solid white;
+}
+.button_bron2:hover{
+    width: 180px;
+    height: 50px;
+    font-size: 1.125rem;
+}
+
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #333333;
+    align-content: center;
+}
+.footer_ins{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: white;
+}
+footer p{
+    color: white;
+}
