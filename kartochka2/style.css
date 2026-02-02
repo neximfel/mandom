@@ -274,8 +274,9 @@ a{
   padding: 32px;
 }
 .contact_map{
-    width: 80%;
+    width: 40%;
     background-image: url(../images/map/map.png);
+    background-repeat: no-repeat;
     z-index: 1;
 }
 .my_map{
